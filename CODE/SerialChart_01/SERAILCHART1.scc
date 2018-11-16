@@ -1,0 +1,41 @@
+[_setup_]
+port=COM3   
+baudrate=9600
+
+width=1000
+height=201
+background_color = white
+
+grid_h_origin = 100
+grid_h_step = 10
+grid_h_color = #EEE
+grid_h_origin_color = #CCC
+
+grid_v_origin = 100
+grid_v_step = 10
+grid_v_color = #EEE
+grid_v_origin_color = transparent
+
+[_default_]
+min=-3000
+max=3000
+
+[Field1]
+color=forestgreen
+min=-5000
+max=5000
+
+[Field2]
+color=blue
+min=-500
+max=500
+
+[Field3]
+color=red
+min=-500
+max=500
+
+[Field4]
+color=orange
+min=-500
+max=500#
